@@ -125,3 +125,9 @@ Program aşağıdaki durumları kontrol eder:
 # Geliştirici
 
 Rafet DUR
+
+
+
+## Test Output
+
+![Run Test](screenshots/run_test.png)
