@@ -1,0 +1,21 @@
+Başla
+↓
+Parametre kontrolü
+↓
+-b mi, -a mı?
+↓
+-b ise:
+  giriş dosyalarını kontrol et
+  ASCII kontrolü yap
+  boyut ve dosya sayısı kontrolü yap
+  metadata oluştur
+  .sau dosyasına yaz
+↓
+-a ise:
+  .sau dosyasını kontrol et
+  metadata oku
+  dosyaları sırayla çıkar
+  izinleri geri yükle
+↓
+Bitiş
+
