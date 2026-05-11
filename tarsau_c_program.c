@@ -84,14 +84,14 @@ static int make_dirs_if_needed(const char *dir) {
     for (char *p = temp + 1; *p; p++) {
         if (*p == '/') {
             *p = '\0';
-            if (mkdir(temp, 0755) != 0 && errno != EEXIST) {
+            if (mkdir(temp) != 0 && errno != EEXIST) {
                 return 0;
             }
             *p = '/';
         }
     }
 
-    if (mkdir(temp, 0755) != 0 && errno != EEXIST) {
+    if (mkdir(temp) != 0 && errno != EEXIST) {
         return 0;
     }
 
